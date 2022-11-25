@@ -5,17 +5,10 @@ body {
     margin: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .menu-header {
     display: flex;
     justify-content: space-between;
     margin-left: auto;
-    align-items: center;
     margin-top: 10px;
 }
 
@@ -27,14 +20,12 @@ header {
     margin-right: 10px;
 }
 
-.logo-menu {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-}
-
 img {
     display: flex;
+}
+
+.menu-header img {
+    margin: 10px;
 }
 
 .logo-menu-text button {
@@ -86,6 +77,7 @@ img {
     margin: 30px;
     box-shadow: 1px 3px 4px rgb(0, 0, 0);
     text-align: center;
+    background-color: rgb(9, 98, 84);
 }
 
 .travel-item button {
@@ -115,7 +107,7 @@ img {
 
 .footer {
     background-color: rgb(63, 63, 63);
-    color: black;
+    color: rgb(202, 202, 202);
     padding: 20px;
     font-size: 20px;
 }
